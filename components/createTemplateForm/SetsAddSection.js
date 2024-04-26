@@ -28,7 +28,7 @@ export default function SetsAddSection({
       <TextInput
         keyboardType="numeric"
         style={styles.textInputSmall}
-        placeholder="Weight"
+        placeholder="Note"
         onChangeText={handleChange(
           `weight Workout: ${workoutIndex}, S: ${setIndex}`
         )}
@@ -37,7 +37,7 @@ export default function SetsAddSection({
       <TextInput
         keyboardType="numeric"
         style={styles.textInputSmall}
-        placeholder="Reps"
+        placeholder="Time Due"
         onChangeText={handleChange(
           `reps Workout: ${workoutIndex}, S: ${setIndex}`
         )}
