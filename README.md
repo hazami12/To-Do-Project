@@ -1,4 +1,4 @@
-# To Do 
+# To Do App
 React Native To Do app. In Progress
 
 ## Technologies
