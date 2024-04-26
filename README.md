@@ -1,5 +1,5 @@
 # To Do 
-React Native Workout Tracking app. In Progress
+React Native To Do app. In Progress
 
 ## Technologies
 1. React Native
