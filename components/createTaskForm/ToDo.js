@@ -2,7 +2,7 @@ import { TextInput, View, StyleSheet, Text, Pressable } from "react-native";
 import { useState } from "react";
 import SetsAddSection from "./SetsAddSection";
 
-const Workout = ({
+const ToDo = ({
   index: workoutIndex,
   handleBlur,
   handleChange,
@@ -124,4 +124,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Workout;
+export default ToDo;
