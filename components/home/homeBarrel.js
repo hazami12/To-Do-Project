@@ -15,7 +15,7 @@ import {
 import { useNavigation } from "@react-navigation/native";
 
 import { useEffect, useState } from "react";
-import WorkoutCardWithPressMenu from "./WorkoutCardWithPressMenu";
+import ToDoCardWithPressMenu from "./ToDoCardWithPressMenu";
 import { getFormData } from "../../data/firestopreRealTime";
 import Boxes from "./Boxes";
 
@@ -32,7 +32,7 @@ export {
   useNavigation,
   useEffect,
   useState,
-  WorkoutCardWithPressMenu,
+  ToDoCardWithPressMenu,
   getFormData,
   Boxes,
   StyleSheet,

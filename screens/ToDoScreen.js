@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   Alert,
 } from "react-native";
-import ExerciseLog from "../components/singleWorkout/ExerciseLog";
+import ExerciseLog from "../components/singleTask/ExerciseLog";
 
 const ToDoScreen = ({ route }) => {
   const navigation = useNavigation();

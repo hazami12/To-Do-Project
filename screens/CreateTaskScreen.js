@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { TextInput, View, StyleSheet, Text, ScrollView } from "react-native";
 import { Formik } from "formik";
-import Workout from "../components/createTemplateForm/Workout";
-import EndFormButtons from "../components/createTemplateForm/EndFormButtons";
+import ToDo from "../components/createTaskForm/ToDo";
+import EndFormButtons from "../components/createTaskForm/EndFormButtons";
 import { writeFormData } from "../data/firestopreRealTime";
 import { formatFormForFirebaseUpload } from "../formFormatter";
 import { useNavigation } from "@react-navigation/native";
@@ -54,7 +54,7 @@ const CreateTaskScreen = ({ route }) => {
 
             {workoutsNum.map((exercise, index) => {
               return (
-                <Workout
+                <ToDo
                   key={index}
                   handleBlur={handleBlur}
                   handleChange={handleChange}

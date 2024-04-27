@@ -16,7 +16,7 @@ const Workout = ({
           <Text style={styles.title}>{`Exercise ${workoutIndex + 1}`}</Text>
         </View>
         <TextInput
-          placeholder="Exercise Name"
+          placeholder="Subject Title"
           style={styles.textInput}
           onChangeText={handleChange(`exercise${workoutIndex}`)}
           onBlur={handleBlur(`exercise${workoutIndex}`)}
@@ -57,7 +57,7 @@ const Workout = ({
             });
           }}
         >
-          <Text style={styles.buttonText}>Add Set</Text>
+          <Text style={styles.buttonText}>Add Task</Text>
         </Pressable>
       </View>
     </>

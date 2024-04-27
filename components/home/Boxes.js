@@ -12,7 +12,7 @@ export default function Boxes({ setWorkouts }) {
             source={require("../../assets/icons/dashboard.png")}
           ></Image>
         </View>
-        <Text style={styles.textStyles}>Template</Text>
+        <Text style={styles.textStyles}>Task</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={{ alignItems: "center" }}
@@ -24,7 +24,7 @@ export default function Boxes({ setWorkouts }) {
             source={require("../../assets/icons/writing.png")}
           ></Image>
         </View>
-        <Text style={styles.textStyles}>Create New</Text>
+        <Text style={styles.textStyles}>Create Task</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={{ alignItems: "center" }}

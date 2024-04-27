@@ -1,7 +1,7 @@
 import { useNavigation } from "@react-navigation/native";
 import { View, StyleSheet, Text, TouchableWithoutFeedback } from "react-native";
 
-const WorkoutCard = ({ workout }) => {
+const ToDoCard = ({ workout }) => {
   const navigation = useNavigation();
   const title = workout.name;
   const lastPreformed = workout.lastPerformed;
@@ -79,4 +79,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default WorkoutCard;
+export default ToDoCard;

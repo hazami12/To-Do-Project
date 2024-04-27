@@ -10,7 +10,7 @@ import {
   LexendDeca_700Bold,
   useEffect,
   useState,
-  WorkoutCardWithPressMenu,
+  ToDoCardWithPressMenu,
   getFormData,
   Boxes,
   StyleSheet,
@@ -45,7 +45,7 @@ const HomeScreen = () => {
 
             {workouts.map((workout) => {
               return (
-                <WorkoutCardWithPressMenu
+                <ToDoCardWithPressMenu
                   workout={workout}
                   SetItemChange={SetItemChange}
                 />

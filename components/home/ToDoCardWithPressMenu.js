@@ -12,11 +12,11 @@ import {
   deleteDocument,
   updateLastPerformedDate,
 } from "../../data/firestopreRealTime";
-import WorkoutCard from "../singleWorkout/WorkoutCard";
+import ToDoCard from "../singleTask/ToDoCard";
 
 const { SlideInMenu } = renderers;
 
-const WorkoutCardWithPressMenu = (props) => {
+const ToDoCardWithPressMenu = (props) => {
   const workout = props.workout;
 
   const title = props.workout.name;
@@ -34,7 +34,7 @@ const WorkoutCardWithPressMenu = (props) => {
             TriggerTouchableComponent: TouchableWithoutFeedback,
           }}
         >
-          <WorkoutCard workout={workout}></WorkoutCard>
+          <ToDoCard workout={workout}></ToDoCard>
         </MenuTrigger>
         <MenuOptions>
           <MenuOption
@@ -61,7 +61,7 @@ const WorkoutCardWithPressMenu = (props) => {
                 color: "white",
               }}
             >
-              Start Workout
+              Start Task
             </Text>
           </MenuOption>
           <MenuOption
@@ -89,4 +89,4 @@ const WorkoutCardWithPressMenu = (props) => {
   );
 };
 
-export default WorkoutCardWithPressMenu;
+export default ToDoCardWithPressMenu;
